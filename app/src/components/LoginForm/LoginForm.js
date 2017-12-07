@@ -24,7 +24,7 @@ class LoginForm extends Component {
           <fieldset className='login-form'>
             <legend className='login-form-caption'> Войти </legend>
 
-            <label classname='input-area'>
+            <label className='input-area'>
               <input className='form' type='text'
                   placeholder='Введите имя или адрес эл. почты'
                   onChange={this.handleChange('username')} />

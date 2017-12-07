@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import facebook from '../../images/facebook.svg';
-import twitter from '../../images/twitter.svg';
-import instagram from '../../images/instagram.svg';
+import facebook from '../../images/social-icons/facebook.svg';
+import twitter from '../../images/social-icons/twitter.svg';
+import instagram from '../../images/social-icons/instagram.svg';
 
 import Logo from '../Logo/Logo.js'
 import Navigation from '../Navigation/Navigation.js'
