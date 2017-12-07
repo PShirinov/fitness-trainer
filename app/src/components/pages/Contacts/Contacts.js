@@ -8,7 +8,7 @@ const dataContacts = {
   adress: '123, Rev Avenu, Hawai',
 
   phoneTitle: 'PHONE',
-  phone: '+81 2345854646',
+  phone: '+38 (050) 315 41 23',
 
   emailTitle: 'EMAIL',
   email: 'email@email.com',
@@ -19,24 +19,29 @@ const dataContacts = {
 
 const Contacts = () =>
   <div className='contacts'>
-    <Map />
-    <h1>CONTACTS</h1>
-    <ContactsField
-        title={dataContacts.adressTitle}
-        data={dataContacts.adress}
-    />
-    <ContactsField
-        title={dataContacts.phoneTitle}
-        data={dataContacts.phone}
-    />
-    <ContactsField
-        title={dataContacts.emailTitle}
-        data={dataContacts.email}
-    />
-    <ContactsField
-        title={dataContacts.storeTitle}
-        data={dataContacts.store}
-    />
+    <h1 className='contacts-title'>Контакты</h1>
+    <div className='contacts-content'>
+      <div className='contacts-info'>
+        <ContactsField
+            title={dataContacts.adressTitle}
+            data={dataContacts.adress}
+        />
+        <ContactsField
+            title={dataContacts.phoneTitle}
+            data={dataContacts.phone}
+        />
+        <ContactsField
+            title={dataContacts.emailTitle}
+            data={dataContacts.email}
+        />
+        <ContactsField
+            title={dataContacts.storeTitle}
+            data={dataContacts.store}
+        />
+      </div>
+      <Map />
+    </div>
+
   </div>
 
 export default Contacts
