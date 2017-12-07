@@ -37,7 +37,7 @@ const Nutrition = props => {
             <p className='nut-description'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ducimus nisi modi soluta inventore corrupti. Laborum magni veniam facere eius, ut similique ratione et quidem dignissimos. Minus, omnis ducimus necessitatibus consequuntur iusto, vero fuga optio ab. Laudantium harum minima obcaecati sapiente maiores molestiae, totam laboriosam. Molestiae repellat debitis veniam sed?</p>
           </div>
         </div>
-        <Button text='Составить план питания' />
+        <Button classBtn='btn' text='Составить план питания' />
       </div>
     </section>
   )
