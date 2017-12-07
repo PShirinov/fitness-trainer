@@ -1,46 +1,42 @@
-.itemWrap{
-	margin-top:20px;
-	margin-bottom:20px;
-	display: inline-block;
-	width:100%;
+.sales-item {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+	padding: 20px;
+	margin: 30px 0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	max-height: 400px;
+}
 
+.sales-item:nth-child(2n) {
+	flex-direction: row-reverse;
 }
-.itemInfo{
-	width:35%;
-	margin-left:15%;
-	float:left;
-	height:250px;
-	box-shadow: 0 0 10px;
-	padding:5px;
-	position:relative;
-}
-.expires{
-	font-size: 12px;
-	position:absolute;
-	bottom:0;
-}
-.itemImgMask{
-	width:100%;
-	height:250px;
-	background-color: black;
-	opacity: 0.6;
-}
-.itemImg p{
-	position:relative;
-	bottom:50px;
-	float:right;
-	color:white;
 
+.sales-item-info {
+	width: 45%;
 }
-.itemImg{
-	width:35%;
-	margin-right:15%;
-	float:right;
-	height:250px;
-	background-image: url("https://f.ua/statik/images/2014/10/bankoboev.ru_na_2611.jpg");
-	background-size: cover;
-	box-shadow: 0 0 10px;
+
+.sales-item-title {
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
 }
-h1{
-	margin-bottom:10px;
+
+.sales-item-desc {
+	margin: 15px 0;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.5)
+}
+
+.sales-item-time {
+	font-style: italic;
+}
+
+.sales-item-img {
+	width: 50%;
+}
+
+.sales-item-btn {
 }

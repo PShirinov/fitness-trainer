@@ -32,7 +32,7 @@ function TrainingPlanSection(){
         <Text content={params.text} />
       </section>
       <section className='motivation'>
-        <Button text={params.btnText} />
+        <Button сlassBtn='btn' text={params.btnText} />
       </section>
     </div>
   )

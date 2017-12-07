@@ -1,0 +1,14 @@
+.sales {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sales-title {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}
